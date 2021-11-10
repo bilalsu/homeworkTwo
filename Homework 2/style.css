@@ -1,3 +1,51 @@
-p{
-    color:black;
+table,th,td{
+    border: 1px solid black;
+    border-color: yellow;
+    
+} 
+
+.r2{
+    background-color:red;
 }
+
+.r1{
+    background-color: yellow;
+}
+
+.firstpic{
+    width: 250px;
+    height: 250px;
+}
+
+.container{
+    display:flex;
+
+}
+
+.firstdiv{
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 4px;
+}
+
+.otherPics{
+    width: 500px;
+    height: 300px;
+}
+
+.block{
+       flex: 33.33%;
+       padding: 10px;
+       border: 1px solid orange;
+       margin: 5px;
+       border-radius: 5px;
+
+}
+
+.block p {
+    text-align: center;
+}
+
+
+
